@@ -30,9 +30,9 @@ display the data from the form after it has been submitted by the user.
   ![form for basketball team](https://curriculum-content.s3.amazonaws.com/web-development/Sinatra/basketball-form.png)
 
   When creating your form, your "Submit" button will need to be identified by
-  either an `id` attribute or a `name` attribute with value of "Submit". We're
+  either an `id` attribute or a `value` attribute with value of "submit". We're
   telling this to you now because our test frame work, Capybara, requires buttons
-  to be [findable either by an `id` or `name` attribute][capybara-click_button].
+  to be [findable either by an `id` or `value` attribute][capybara-click_button].
 
 4. Handle form submission
 
